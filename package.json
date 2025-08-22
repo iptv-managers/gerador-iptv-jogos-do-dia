@@ -1,0 +1,17 @@
+{
+  "name": "gerador-iptv-jogos-do-dia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "icleitoncosta",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "mysql2": "^3.14.3",
+    "uol-simple-api-futebol": "^0.0.1"
+  }
+}

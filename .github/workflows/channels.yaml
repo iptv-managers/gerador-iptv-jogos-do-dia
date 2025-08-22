@@ -1,0 +1,38 @@
+#Esse arquivo executa as atualizações de jogos todos os dias em meu servidor de teste
+# caso queira usar em seu github, basta cadastrar o arquivo .env como secret com o nome MY_ENV
+name: Run Channels Script
+
+on:
+  schedule:
+    - cron: '0 11 * * *'   # Executa todo dia às 11h UTC // 08h BR
+  workflow_dispatch:       # Permite rodar manualmente também
+
+jobs:
+  run-movies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Create .env file
+        run: |
+          echo "${{ secrets.MY_ENV }}" > .env
+
+      - name: Create sources file
+        run: |
+          echo "${{ secrets.SOURCES }}" > .sources.json
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run index.js
+        run: node index.js
+        working-directory: ./
+        env:
+          MY_SECRET: ${{ secrets.MY_ENV }}

@@ -1,0 +1,129 @@
+[
+    {
+        "url": "",
+        "type": "disney",
+        "option": 1,
+        "channelNum": 1,
+        "quality": "SD"
+    },
+    {
+        "url": "",
+        "type": "disney",
+        "option": 1,
+        "channelNum": 1,
+        "quality": "HD"
+    },
+    {
+        "url": "",
+        "type": "disney",
+        "option": 1,
+        "channelNum": 1,
+        "quality": "FHD"
+    },
+    {
+        "url": "",
+        "type": "disney",
+        "option": 2,
+        "channelNum": 1,
+        "quality": "FHD"
+    },
+    {
+        "url": "",
+        "type": "disney",
+        "option": 3,
+        "channelNum": 1,
+        "quality": "FHD"
+    },
+
+    
+    {
+        "url": "",
+        "type": "cazetv",
+        "option": 1,
+        "channelNum": 1,
+        "quality": "HD"
+    },
+
+    
+    {
+        "url": "",
+        "type": "espn",
+        "option": 1,
+        "channelNum": 1,
+        "quality": "SD"
+    },
+    {
+        "url": "",
+        "type": "espn",
+        "option": 1,
+        "channelNum": 1,
+        "quality": "HD"
+    },
+    {
+        "url": "",
+        "type": "espn",
+        "option": 1,
+        "channelNum": 1,
+        "quality": "FHD"
+    },
+    {
+        "url": "",
+        "type": "espn",
+        "option": 2,
+        "channelNum": 1,
+        "quality": "FHD"
+    },
+    {
+        "url": "",
+        "type": "espn",
+        "option": 3,
+        "channelNum": 1,
+        "quality": "FHD"
+    },
+
+    
+    {
+        "url": "",
+        "type": "espn4",
+        "option": 1,
+        "channelNum": 1,
+        "quality": "SD"
+    },
+    {
+        "url": "",
+        "type": "espn4",
+        "option": 1,
+        "channelNum": 1,
+        "quality": "HD"
+    },
+    {
+        "url": "",
+        "type": "espn4",
+        "option": 1,
+        "channelNum": 1,
+        "quality": "FHD"
+    },
+
+
+    {
+        "url": "",
+        "type": "redetv",
+        "option": 1,
+        "channelNum": 1,
+        "quality": "SD"
+    },
+    {
+        "url": "",
+        "type": "redetv",
+        "option": 1,
+        "channelNum": 1,
+        "quality": "HD"
+    },
+    {
+        "url": "",
+        "type": "redetv",
+        "option": 1,
+        "channelNum": 1,
+        "quality": "FHD"
+    }
+]

@@ -52,8 +52,9 @@ function getChannelsSource(jogos, canaisFonte) {
     // Jogo do dia como primeiro, caso haja
     if(URL_JOGOS_DO_DIA != '') {
         resultado.push({
-        name: `JOGOS DO DIA`,
-        url: URL_JOGOS_DO_DIA
+            name: `JOGOS DO DIA`,
+            url: URL_JOGOS_DO_DIA,
+            logo: 'https://cdn-icons-png.flaticon.com/512/1165/1165218.png',
         });
     }
 
@@ -78,8 +79,9 @@ function getChannelsSource(jogos, canaisFonte) {
         }
 
         resultado.push({
-          name: `${jogo.times[0]} x ${jogo.times[1]} - ${jogo.hora} - ${sufixo} (${canal.toUpperCase()})`,
-          url: opc.url
+            name: `${jogo.times[0]} x ${jogo.times[1]} - ${jogo.hora} - ${sufixo} (${canal.toUpperCase()})`,
+            url: opc.url,
+            logo: 'https://cdn-icons-png.flaticon.com/512/1165/1165218.png',
         });
       }
     }

@@ -43,7 +43,9 @@ function getChannelsSource(jogos, canaisFonte) {
     'ESPN': 'espn',
     'ESPN 4': 'espn4',
     'CazéTV': 'cazetv',
-    'RedeTV': 'redetv'
+    'RedeTV': 'redetv',
+    'Metrópoles': 'metropoles',
+    'SporTV': 'sportv'
     // tendo mais fontes adicione mais aqui
   };
 
